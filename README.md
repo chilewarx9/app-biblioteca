@@ -55,7 +55,7 @@ dependencies:
 
 1. **Clonar el repositorio:**
 ```bash
-git clone [URL_DE_TU_REPO]
+git clone https://github.com/chilewarx9/app-biblioteca.git
 cd app_tareas
 ```
 
@@ -66,7 +66,7 @@ flutter pub get
 
 3. **Iniciar emulador Android:**
 ```bash
-flutter emulators --launch Medium_Phone_API_36.0
+flutter emulators --launch Medium_Phone_API_36.0 *debe estar iniciado el emulador en android studio*
 ```
 
 4. **Ejecutar la aplicación:**
@@ -78,8 +78,8 @@ flutter run
 
 Para facilitar la evaluación, puedes usar estos usuarios o crear nuevos:
 
-- **Email:** `test@test.com`
-- **Password:** `123456`
+- **Email:** `1@gmail.com`
+- **Password:** `racergsi12`
 
 O registrar nuevos usuarios desde la app.
 
@@ -150,7 +150,7 @@ lib/
 
 ## ⚠️ Nota Importante
 
-Este es un proyecto académico con repositorio privado. Las configuraciones 
+Este es un proyecto académico con repositorio privado. Las configuraciones (repo publico por ahora para ser evaluado)
 de Firebase están incluidas solo para fines educativos y de evaluación.
 
 ## 📄 Licencia
