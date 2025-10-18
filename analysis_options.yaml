@@ -1,0 +1,33 @@
+name: app_tareas
+description: "App de ejemplo para gestionar tareas/libros"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  # si usas Flutter 3.x/4.x puedes ajustar el sdk, por ejemplo ">=2.17.0 <4.0.0"
+
+# Reglas linter (puedes mantenerlo)
+include: package:flutter_lints/flutter.yaml
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # paquete común para iconos de iOS/Android
+  cupertino_icons: ^1.0.2
+
+  # agrega solo lo que realmente uses; ejemplo de state management opcional:
+  # provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # si tienes assets (imágenes, json, etc.) declara la carpeta
+  assets:
+    - assets/
+

@@ -1,0 +1,23 @@
+# Miscellaneous
+*.class
+*.log
+.DS_Store
+.idea/
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+/build/
+
+# Android artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# SOLO proteger keystores (firmas de apps)
+**/*.keystore
+**/*.jks
+**/key.properties
