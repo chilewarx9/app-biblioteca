@@ -91,9 +91,9 @@ La configuración ya está incluida en el repositorio para facilitar la evaluaci
 ### Reglas de Seguridad (Firestore)
 Los usuarios solo pueden acceder a sus propios libros (filtrado por `userId`).
 
-## 📱 Capturas de Pantalla
+## 📱 Video demostrativo breve:
 
-[Agregar screenshots aquí después]
+https://youtu.be/yADp8YtPAbQ
 
 ## 🎓 Contexto Académico
 
